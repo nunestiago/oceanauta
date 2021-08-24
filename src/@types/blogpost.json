@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "title": "Teste blog post",
+    "content": "Lore ipsum\n![20170405-DJI_2__0600-1024x768.jpg](/uploads/20170405_DJI_2_0600_1024x768_bf22bc886f.jpg)\nOutra coisa\n![20161212-IMG_6134-1024x768.jpg](/uploads/20161212_IMG_6134_1024x768_cac11642e1.jpg)\n\n",
+    "slug": "teste-blog-post",
+    "author": {
+      "id": 1,
+      "name": "Pedro Pereira",
+      "published_at": "2021-08-24T14:09:12.311Z",
+      "created_at": "2021-08-24T14:05:11.059Z",
+      "updated_at": "2021-08-24T14:09:12.337Z"
+    },
+    "category": {
+      "id": 1,
+      "name": "mapeamento",
+      "published_at": "2021-08-24T14:09:19.405Z",
+      "created_at": "2021-08-24T14:05:23.101Z",
+      "updated_at": "2021-08-24T14:09:19.430Z"
+    },
+    "published_at": "2021-08-24T14:09:22.556Z",
+    "created_at": "2021-08-24T14:07:31.860Z",
+    "updated_at": "2021-08-24T14:09:22.572Z",
+    "coverphoto": {
+      "id": 1,
+      "name": "IMG_3988.JPG",
+      "alternativeText": "",
+      "caption": "",
+      "width": 551,
+      "height": 330,
+      "formats": {
+        "small": {
+          "ext": ".JPG",
+          "url": "/uploads/small_IMG_3988_dffd170ff7.JPG",
+          "hash": "small_IMG_3988_dffd170ff7",
+          "mime": "image/jpeg",
+          "name": "small_IMG_3988.JPG",
+          "path": null,
+          "size": 13.66,
+          "width": 500,
+          "height": 299
+        },
+        "thumbnail": {
+          "ext": ".JPG",
+          "url": "/uploads/thumbnail_IMG_3988_dffd170ff7.JPG",
+          "hash": "thumbnail_IMG_3988_dffd170ff7",
+          "mime": "image/jpeg",
+          "name": "thumbnail_IMG_3988.JPG",
+          "path": null,
+          "size": 4.19,
+          "width": 245,
+          "height": 147
+        }
+      },
+      "hash": "IMG_3988_dffd170ff7",
+      "ext": ".JPG",
+      "mime": "image/jpeg",
+      "size": 14.91,
+      "url": "/uploads/IMG_3988_dffd170ff7.JPG",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-08-24T14:05:48.400Z",
+      "updated_at": "2021-08-24T14:05:48.408Z"
+    },
+    "postmedia": [
+      {
+        "id": 2,
+        "name": "20170405-DJI_2__0600-1024x768.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1024,
+        "height": 768,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "/uploads/large_20170405_DJI_2_0600_1024x768_bf22bc886f.jpg",
+            "hash": "large_20170405_DJI_2_0600_1024x768_bf22bc886f",
+            "mime": "image/jpeg",
+            "name": "large_20170405-DJI_2__0600-1024x768.jpg",
+            "path": null,
+            "size": 177.61,
+            "width": 1000,
+            "height": 750
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "/uploads/small_20170405_DJI_2_0600_1024x768_bf22bc886f.jpg",
+            "hash": "small_20170405_DJI_2_0600_1024x768_bf22bc886f",
+            "mime": "image/jpeg",
+            "name": "small_20170405-DJI_2__0600-1024x768.jpg",
+            "path": null,
+            "size": 51,
+            "width": 500,
+            "height": 375
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "/uploads/medium_20170405_DJI_2_0600_1024x768_bf22bc886f.jpg",
+            "hash": "medium_20170405_DJI_2_0600_1024x768_bf22bc886f",
+            "mime": "image/jpeg",
+            "name": "medium_20170405-DJI_2__0600-1024x768.jpg",
+            "path": null,
+            "size": 107.86,
+            "width": 750,
+            "height": 563
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "/uploads/thumbnail_20170405_DJI_2_0600_1024x768_bf22bc886f.jpg",
+            "hash": "thumbnail_20170405_DJI_2_0600_1024x768_bf22bc886f",
+            "mime": "image/jpeg",
+            "name": "thumbnail_20170405-DJI_2__0600-1024x768.jpg",
+            "path": null,
+            "size": 10.77,
+            "width": 208,
+            "height": 156
+          }
+        },
+        "hash": "20170405_DJI_2_0600_1024x768_bf22bc886f",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 192.87,
+        "url": "/uploads/20170405_DJI_2_0600_1024x768_bf22bc886f.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_at": "2021-08-24T14:06:44.045Z",
+        "updated_at": "2021-08-24T14:06:44.051Z"
+      },
+      {
+        "id": 3,
+        "name": "20161212-IMG_6134-1024x768.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 1024,
+        "height": 768,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "/uploads/large_20161212_IMG_6134_1024x768_cac11642e1.jpg",
+            "hash": "large_20161212_IMG_6134_1024x768_cac11642e1",
+            "mime": "image/jpeg",
+            "name": "large_20161212-IMG_6134-1024x768.jpg",
+            "path": null,
+            "size": 317.47,
+            "width": 1000,
+            "height": 750
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "/uploads/small_20161212_IMG_6134_1024x768_cac11642e1.jpg",
+            "hash": "small_20161212_IMG_6134_1024x768_cac11642e1",
+            "mime": "image/jpeg",
+            "name": "small_20161212-IMG_6134-1024x768.jpg",
+            "path": null,
+            "size": 75.77,
+            "width": 500,
+            "height": 375
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "/uploads/medium_20161212_IMG_6134_1024x768_cac11642e1.jpg",
+            "hash": "medium_20161212_IMG_6134_1024x768_cac11642e1",
+            "mime": "image/jpeg",
+            "name": "medium_20161212-IMG_6134-1024x768.jpg",
+            "path": null,
+            "size": 179.87,
+            "width": 750,
+            "height": 563
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "/uploads/thumbnail_20161212_IMG_6134_1024x768_cac11642e1.jpg",
+            "hash": "thumbnail_20161212_IMG_6134_1024x768_cac11642e1",
+            "mime": "image/jpeg",
+            "name": "thumbnail_20161212-IMG_6134-1024x768.jpg",
+            "path": null,
+            "size": 12.77,
+            "width": 208,
+            "height": 156
+          }
+        },
+        "hash": "20161212_IMG_6134_1024x768_cac11642e1",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 344.69,
+        "url": "/uploads/20161212_IMG_6134_1024x768_cac11642e1.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_at": "2021-08-24T14:06:44.060Z",
+        "updated_at": "2021-08-24T14:06:44.067Z"
+      }
+    ]
+  }
+]
