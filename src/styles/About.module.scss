@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+
+.phoneIconContainer {
+  background: #0896c7;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.phoneNumber {
+  color: #0e9dd0;
+  font-weight: 500;
+  font-size: 1.3rem;
+}

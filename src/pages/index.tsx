@@ -1,25 +1,24 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import { BlogPost } from "../@types/blogpost";
 import { ProjectPost } from "../@types/projectpost";
+import About from "../components/About";
 import styles from "../styles/Home.module.scss";
 
 import type { GetStaticProps, NextPage } from "next";
-
 export interface HomeProps {
   blogPosts: BlogPost[];
   projectPosts: ProjectPost[];
 }
 
 const getBlogPosts = async (): Promise<BlogPost[]> => {
-  const posts = await fetch(`${process.env.apiAddress}/blog-posts`);
+  const posts = await fetch(`http://localhost:1337/blog-posts`);
   const jsonPosts = await posts.json();
   return jsonPosts;
 };
 
 const getProjectPosts = async (): Promise<ProjectPost[]> => {
-  const posts = await fetch(`${process.env.apiAddress}/projects`);
+  const posts = await fetch(`http://localhost:1337/projects`);
   const jsonPosts = await posts.json();
   return jsonPosts;
 };
@@ -37,6 +36,7 @@ const Home = ({ blogPosts, projectPosts }: HomeProps) => {
       </Head>
 
       <main className={styles.main}>
+        <About />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -76,19 +76,6 @@ const Home = ({ blogPosts, projectPosts }: HomeProps) => {
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 };

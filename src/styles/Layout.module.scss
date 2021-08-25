@@ -1,0 +1,32 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    color: #169ebd;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+.links {
+  padding-bottom: 2rem;
+}
+
+.footer {
+  width: 100%;
+  background-color: #013e53;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Palanquin", sans-serif;
+  p {
+    margin: 1rem 1rem 0;
+  }
+}

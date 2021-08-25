@@ -24,7 +24,6 @@ export interface Media {
   id: number;
   name: string;
   alternativeText: string;
-  // TODO string || undefined? => ver json de alternative text
   caption: string;
   width: number;
   height: number;
