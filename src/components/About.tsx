@@ -1,3 +1,5 @@
+import { faFacebook, faInstagram, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
 
@@ -48,10 +50,17 @@ function About() {
         </p>
         <h3>Clique aqui para baixar nosso folder digital.</h3>
         {phones.map((phone) => (
-          <PhonesComp key={phone} phone={phone} />
+          <>
+            <PhonesComp key={phone} phone={phone} />
+          </>
         ))}
       </div>
-      <div></div>
+      <div>
+        <FontAwesomeIcon icon={faWhatsapp} />
+        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon icon={faFacebook} />
+        <FontAwesomeIcon icon={faInstagram} />
+      </div>
     </div>
   );
 }
